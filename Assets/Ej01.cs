@@ -41,7 +41,7 @@ public class Ej01 : MonoBehaviour
         {
             CantDiasNormales = cantTotalDias - cantLluvia;
             totalkm = (CantDiasNormales * 90) + (cantLluvia * 110);
-            CostoNafta = (totalkm / 15) * 130;
+            CostoNafta = cantidadTaxis*((totalkm / 15) * 130);
 
             Debug.Log("Una flota de " + cantidadTaxis + " unidades trabanajndo durante " + cantTotalDias + " dias implicará un gasto de " + CostoNafta + " pesos argentinos en concepto de combustible");
         }
