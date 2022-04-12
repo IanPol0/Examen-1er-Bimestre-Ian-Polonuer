@@ -142,8 +142,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cantidadTaxis: 10
-  cantTotalDias: 10
-  cantLluvia: 2
+  cantTotalDias: 11
+  cantLluvia: 11
 --- !u!4 &48501686
 Transform:
   m_ObjectHideFlags: 0
